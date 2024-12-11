@@ -6,7 +6,8 @@
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
     "dev": "cross-env NODE_ENV=development nodemon app",
-    "postinstall": "node ./scripts/post-install.js"
+    "postinstall": "node ./scripts/post-install.js",
+    "vercel-build": "npm install"
   },
   "author": "Brad Traversy",
   "license": "MIT",
